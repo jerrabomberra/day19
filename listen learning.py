@@ -2,9 +2,6 @@ import colorgram
 from turtle import Turtle, Screen
 import turtle as t
 
-import turtle 
-import random
-
 t.colormode(255)
 tim = Turtle()
 screen = Screen()
@@ -28,7 +25,7 @@ def right():
 
 
 tim.fd(100)
-turtle.listen()
+screen.listen()
 
 screen.onkey(up, "Up")  # This will call the up function if the "Left" arrow key is pressed
 screen.onkey(down, "Down")
